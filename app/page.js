@@ -14,6 +14,20 @@ export default function Home() {
         <p className="mt-4 text-lg text-gray-600">
           First year Computer Science Student at UCLA building software for social impact. 676767676767
         </p>
+
+        <Image
+          src="/images/ethan-xin.jpeg"
+          alt="Ethan Xin"
+          width={300}
+          height={300}
+        />
+        
+        <p className="mt-4 text-lg text-gray-600">
+          My current interests are...
+        </p>
+
+        
+
       </main>
     </>
   );
