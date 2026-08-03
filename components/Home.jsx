@@ -24,6 +24,7 @@ export default function Home() {
                     src="/images/ethan-xin.jpeg"
                     alt="Ethan Xin"
                     style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto' }} 
+                    className="w-100 h-100 object-cover rounded-full border-4 border-gray-300 p-1" 
                     width={300}
                     height={300}
                 />
@@ -60,7 +61,7 @@ export default function Home() {
                 Feel free to reach out to me if you have any questions or would like to collaborate!
             </p>
         </section>
-        
+
       </main>
     </>
   );
