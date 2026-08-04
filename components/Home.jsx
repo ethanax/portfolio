@@ -19,6 +19,11 @@ export default function Home() {
                         Second year Computer Science Student at UCLA building software for social impact.
                     </p>
 
+                    <p className="mt-6 flex items-center gap-2 text-xl text-muted-foreground leading-relaxed">
+                        <span>Manhattan, KS // Los Angeles, CA</span>
+                        {/* Add a location icon to the lft and add a separator dot between the locations, SVG component? */}
+                    </p>
+
                 </div>
 
                 {/* Right column - image */}
