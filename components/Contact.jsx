@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function Contact() {
     return (
     <>
-      <main className="bg-gray-100 min-h-screen">
+      <main className="min-h-screen bg-background">
 
         {/* PREVIEW */}
         <section className="flex items-center justify-center px-10 min-h-[calc(100vh-80px)]">
